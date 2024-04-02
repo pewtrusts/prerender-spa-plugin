@@ -1,6 +1,6 @@
-**Looking for new maintainers, please reply to [this issue](https://github.com/chrisvfritz/prerender-spa-plugin/issues/477) if you are interested.**
+<h1 align="center">[DEPRECATED]</h1>
 
-<h1 align="center">Prerender SPA Plugin</h1>
+<h2 align="center">Prerender SPA Plugin</h2>
 <p align="center">
   <em>Flexible, framework-agnostic static site generation for sites and SPAs built with webpack.</em>
 </p>
