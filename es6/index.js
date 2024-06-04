@@ -1,7 +1,7 @@
 const path = require('path')
 const Prerenderer = require('@prerenderer/prerenderer')
 const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer')
-const { minify } = require('html-minifier')
+// const { minify } = require('html-minifier')
 
 function PrerenderSPAPlugin (...args) {
   const rendererOptions = {} // Primarily for backwards-compatibility.
@@ -99,9 +99,10 @@ PrerenderSPAPlugin.prototype.apply = function (compiler) {
       .then(renderedRoutes => {
         if (!this._options.minify) return renderedRoutes
 
-        renderedRoutes.forEach(route => {
-          route.html = minify(route.html, this._options.minify)
-        })
+        // or not
+        // renderedRoutes.forEach(route => {
+        //   route.html = minify(route.html, this._options.minify)
+        // })
 
         return renderedRoutes
       })

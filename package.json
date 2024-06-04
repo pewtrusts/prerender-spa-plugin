@@ -50,8 +50,7 @@
   },
   "dependencies": {
     "@prerenderer/prerenderer": "^1.2.4",
-    "@prerenderer/renderer-puppeteer": "^1.2.3",
-    "html-minifier": "^3.5.16"
+    "@prerenderer/renderer-puppeteer": "^1.2.3"
   },
   "devDependencies": {
     "ava": "^3.9.0",
